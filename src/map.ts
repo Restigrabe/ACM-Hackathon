@@ -1,5 +1,5 @@
 import "ol/ol.css";
-import Feature from "ol/Feature";
+import Feature, { FeatureLike } from "ol/Feature";
 import Point from "ol/geom/Point";
 import TileLayer from "ol/layer/Tile";
 import VectorLayer from "ol/layer/Vector";
@@ -53,13 +53,18 @@ const baseLayer = new TileLayer({
 const vectorSource = new VectorSource();
 const vectorLayer = new VectorLayer({
     source: vectorSource,
-    style: new Style({
-        image: new Circle({
-            radius: 6,
-            fill: new Fill({ color: "rgba(255, 0, 0, 0.6)" }),
-            stroke: new Stroke({ color: "white", width: 2 }),
-        }),
-    }),
+    style: (feature) => {
+        const alarmLevel = getAlarmLevel(feature);
+        let color = `rgba(${Math.round(0+alarmLevel)}, ${Math.round(255-alarmLevel)}, 0, 0.6)`; // Green for 'none'
+        
+        return new Style({
+            image: new Circle({
+                radius: 6,
+                fill: new Fill({ color: color }),
+                stroke: new Stroke({ color: "white", width: 2 }),
+            }),
+        });
+    }
 });
 
 // Create map
@@ -72,6 +77,24 @@ const map = new Map({
         zoom: 8,
     }),
 });
+
+const MEDIUM_THRESHOLD = 2.5
+const HIGH_THRESHHOLD = 5
+
+function getAlarmLevel(feature: FeatureLike): any {
+    const eastingDiff = Math.abs(feature.get("eastingDiff"))*1000;
+    const northingDiff = Math.abs(feature.get("northingDiff"))*1000;
+    const heightDiff = Math.abs(feature.get("heightDiff"))*1000;
+
+    const cumDiff = eastingDiff + northingDiff + heightDiff
+    const alarmLevel = cumDiff / 7 * 255
+
+    if (alarmLevel>255){
+        return 255
+    }
+
+    return alarmLevel
+}
 
 // Fetch and display features
 async function loadFeatures(): Promise<void> {
@@ -93,8 +116,12 @@ async function loadFeatures(): Promise<void> {
                 });
                 return feature;
             });
+            
+            for(let feature of features){
+                console.log(getAlarmLevel(feature))
+            }
 
-            vectorSource.addFeatures(features);
+            vectorSource.addFeatures(features)
 
             // Zoom to features extent
             if (features.length > 0) {
