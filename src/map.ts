@@ -11,6 +11,7 @@ import VectorSource from "ol/source/Vector";
 import { Circle, Fill, Stroke, Style } from "ol/style";
 import View from "ol/View";
 import proj4 from "proj4";
+import LineString from "ol/geom/LineString";
 
 interface GeoMOSResult {
     Id: number;
@@ -53,13 +54,28 @@ const baseLayer = new TileLayer({
 const vectorSource = new VectorSource();
 const vectorLayer = new VectorLayer({
     source: vectorSource,
-    style: new Style({
-        image: new Circle({
-            radius: 6,
-            fill: new Fill({ color: "rgba(255, 0, 0, 0.6)" }),
-            stroke: new Stroke({ color: "white", width: 2 }),
-        }),
-    }),
+     style: (feature) => {
+        const geom = feature.getGeometry();
+
+        // Punkt (aktueller Messpunkt)
+        if (geom instanceof Point) {
+            return new Style({
+                image: new Circle({
+                    radius: 6,
+                    fill: new Fill({ color: "rgba(184, 8, 38, 0.6)" }),
+                    stroke: new Stroke({ color: "white", width: 2 }),
+                }),
+            });
+        }
+
+        // Linie (Verschiebungsvektor)
+        return new Style({
+            stroke: new Stroke({
+                color: "black",
+                width: 2,
+            }),
+        });
+    },
 });
 
 // Create map
@@ -73,6 +89,33 @@ const map = new Map({
     }),
 });
 
+const WARNING_THRESHOLD_MM = 10;   // 10 mm
+const ALARM_THRESHOLD_MM = 20;    // 20 mm
+
+function getAlarmLevel(result: GeoMOSResult): 'none' | 'warning' | 'alarm'{
+    const vertMm = Math.abs(result.HeightDiff * 1000);
+    const horizMm = Math.sqrt(
+        result.EastingDiff * result.EastingDiff +
+        result.NorthingDiff * result.NorthingDiff
+    ) * 1000;
+
+    const maxMm = Math.max(vertMm, horizMm);
+
+    if (maxMm >= ALARM_THRESHOLD_MM) return 'alarm';
+    if (maxMm >= WARNING_THRESHOLD_MM) return 'warning';
+    return 'none';
+}
+
+function getMaxDisplacementMm(result: GeoMOSResult): number {
+  const vertMm = Math.abs(result.HeightDiff * 1000);
+  const horizMm = Math.sqrt(
+    result.EastingDiff * result.EastingDiff +
+    result.NorthingDiff * result.NorthingDiff
+  ) * 1000;
+  return Math.max(vertMm, horizMm);
+}
+
+
 // Fetch and display features
 async function loadFeatures(): Promise<void> {
     try {
@@ -80,9 +123,21 @@ async function loadFeatures(): Promise<void> {
         const data: GeoMOSResponse = await response.json();
 
         if (data.ApiStatusCode === 0 && data.Results) {
-            const features = data.Results.map(result => {
-                const feature = new Feature({
-                    geometry: new Point([result.Easting, result.Northing]),
+            const features: Feature[] = [];
+
+            for (const result of data.Results) {
+                // 1) Aktueller Punkt (verschobene Position)
+                const currentCoord: [number, number] = [result.Easting, result.Northing];
+
+                // 2) Referenzpunkt (ursprüngliche Lage)
+                const refCoord: [number, number] = [
+                    result.Easting - result.EastingDiff * 1000,
+                    result.Northing - result.NorthingDiff * 1000,
+                ];
+
+                // 3) Feature: aktueller Punkt (für Popup etc.)
+                const pointFeature = new Feature({
+                    geometry: new Point(currentCoord),
                     id: result.Id,
                     pointId: result.PointId,
                     epoch: result.Epoch,
@@ -91,12 +146,22 @@ async function loadFeatures(): Promise<void> {
                     northingDiff: result.NorthingDiff,
                     heightDiff: result.HeightDiff,
                 });
-                return feature;
-            });
 
+                // 4) Feature: Verschiebungs-Linie (Original → aktuell)
+                const displacementFeature = new Feature({
+                    geometry: new LineString([refCoord, currentCoord]),
+                    pointId: result.PointId,
+                    epoch: result.Epoch,
+                });
+
+                // beide Features sammeln
+                features.push(pointFeature, displacementFeature);
+            }
+
+            // Alle Features zur Karte hinzufügen
             vectorSource.addFeatures(features);
 
-            // Zoom to features extent
+            // Zoom auf alle Features
             if (features.length > 0) {
                 map.getView().fit(vectorSource.getExtent(), {
                     padding: [50, 50, 50, 50],
@@ -104,9 +169,10 @@ async function loadFeatures(): Promise<void> {
                 });
             }
 
+            // Anzeige der Anzahl Monitoring-Punkte (nicht Features!)
             const featureCountEl = document.getElementById("feature-count");
             if (featureCountEl) {
-                featureCountEl.textContent = `Loaded ${features.length} monitoring points`;
+                featureCountEl.textContent = `Loaded ${features.length / 2} monitoring points`;
             }
         } else {
             const featureCountEl = document.getElementById("feature-count");
