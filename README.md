@@ -68,6 +68,155 @@ npm run build
 npm start
 ```
 
+---
+
+## GeoMOS API Documentation
+
+All API requests are proxied through the local server at `http://localhost:3000/api/*` to avoid CORS issues.
+
+### Base Information
+
+**API Version**: v1
+**Base URL**: `http://localhost:3000/api/v1`
+**Coordinate System**: EPSG:2056 (Swiss LV95)
+**Date Format**: ISO 8601 (YYYY-MM-DD or YYYY-MM-DDTHH:mm:ss)
+
+---
+
+### 1. Projects
+
+```http
+GET /api/v1/projectsjson
+```
+
+Returns list of all GeoMOS projects where Web API is activated.
+
+---
+
+### 2. Monitoring Points
+
+#### Get All Points in Project
+```http
+GET /api/v1/projects/{projectId}/pointsjson
+```
+
+Returns all monitoring points with their reference coordinates (Easting, Northing, Height in EPSG:2056).
+
+---
+
+### 3. Measurement Results (Primary Data Source)
+
+#### Get Results by Time Range
+```http
+GET /api/v1/projects/{projectId}/resultsjson?starttime={start}&endtime={end}
+```
+
+**Description**: Returns processed displacement results for all points in the specified time period. This is the main endpoint for monitoring movements over time.
+
+**Example**:
+```http
+GET /api/v1/projects/5/resultsjson?starttime=2025-10-20&endtime=2025-10-31
+```
+
+**Response Example**:
+```json
+{
+  "ApiStatusCode": 0,
+  "ApiStatusMessage": "Ok",
+  "Results": [
+    {
+      "Id": 12345,
+      "PointId": 101,
+      "Epoch": "2025-10-25T14:30:00Z",
+      "EpochLocal": "2025-10-25T15:30:00",
+      "Easting": 2660123.458,
+      "Northing": 1190234.565,
+      "Height": 285.120,
+      "EastingDiff": 0.002,
+      "NorthingDiff": -0.002,
+      "HeightDiff": -0.003,
+      "LongitudinalDisplacement": 0.0028,
+      "TransverseDisplacement": 0.0014,
+      "HeightDisplacement": -0.003,
+      "Type": 1
+    }
+  ]
+}
+```
+
+**Critical Fields for Movement Detection**:
+
+| Field | Unit | Description |
+|-------|------|-------------|
+| `Epoch` | ISO 8601 | Measurement timestamp (UTC) |
+| `EpochLocal` | ISO 8601 | Measurement timestamp (local time) |
+| `Easting`, `Northing`, `Height` | meters | Current absolute coordinates |
+| `EastingDiff` | meters | Displacement from reference in East-West direction |
+| `NorthingDiff` | meters | Displacement from reference in North-South direction |
+| `HeightDiff` | meters | Vertical displacement from reference (negative = settlement) |
+| `LongitudinalDisplacement` | meters | Movement along monitoring profile line |
+| `TransverseDisplacement` | meters | Movement perpendicular to profile line |
+| `HeightDisplacement` | meters | Combined vertical movement indicator |
+| `Type` | enum | Result type (1=automatic, 2=manual, etc.) |
+
+**Important Notes**:
+- All displacement values are in **meters** (multiply by 1000 for millimeters)
+- Negative `HeightDiff` indicates settlement (downward movement)
+- Reference point is typically the first measurement or a manually set baseline
+- Typical monitoring precision: ±1-2mm for geodetic monitoring
+
+#### Get Results by Specific Points
+```http
+GET /api/v1/projects/{projectId}/points/{pointIds}/resultsjson?starttime={start}&endtime={end}
+```
+
+**Description**: Returns results for specific monitoring points only.
+
+**Example**:
+```http
+GET /api/v1/projects/5/points/134219468,134219461/resultsjson?starttime=2025-10-20&endtime=2025-10-31
+```
+
+**Use Case**: Filter data when you only want to analyze specific points instead of all points in the project.
+
+---
+
+
+## API Response Codes
+
+All endpoints return an `ApiStatusCode` field:
+
+| Code | Status | Description |
+|------|--------|-------------|
+| 0 | Ok | Request successful |
+| 1 | Error | General error occurred |
+| 2 | NoData | No data found for specified parameters |
+| 3 | InvalidParameter | Invalid request parameters |
+| 4 | Unauthorized | API key invalid or Web API not activated for project |
+
+---
+
+## Time Range Parameters
+
+Most endpoints accept optional `starttime` and `endtime` parameters:
+- **Format**: `YYYY-MM-DD` or `YYYY-MM-DDTHH:mm:ss`
+- **If omitted**: Returns latest available data
+- **Time zone**: UTC in `Epoch` field, local time in `EpochLocal`
+
+**Examples**:
+- Last 7 days: `?starttime=2025-10-18&endtime=2025-10-25`
+- Specific time: `?starttime=2025-10-25T00:00:00&endtime=2025-10-25T23:59:59`
+- All data: omit parameters
+
+---
+
+## Additional Resources
+
+- **Full API Documentation**: See `apidoc/` folder for complete reference
+- **Coordinate System**: [Swiss LV95 (EPSG:2056)](https://epsg.io/2056)
+
+---
+
 ## API Endpoints
 
 ### Proxy Endpoint
