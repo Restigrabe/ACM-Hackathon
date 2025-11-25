@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Active property">
+    <HelpKINode Title="GenericSensor.Active Property " Url="html/9854ccaf-97f5-06c6-08f7-ef53c3d2a1a7.htm" />
+    <HelpKINode Title="Sensor.Active Property " Url="html/4b5bf5fe-a5c8-f178-5284-757413f524f9.htm" />
+    <HelpKINode Title="TpsSensor.Active Property " Url="html/87f02ec8-7d93-0092-a15f-19410e57cf8e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddInstConstant property" Url="html/80929dea-5d18-c07e-0ed1-67e4ac898774.htm" />
+  <HelpKINode Title="ApiRequest class">
+    <HelpKINode Title="ApiRequest Class" Url="html/3affcfb9-de42-55f0-c65f-706fbbfa7bf4.htm" />
+    <HelpKINode Title="methods" Url="html/9839a263-0e91-5d20-58d6-f6563bb51124.htm" />
+    <HelpKINode Title="properties" Url="html/8172a38e-c511-d219-9afd-0fdea2fb3f79.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApiRequest.Description property" Url="html/cbb51c08-013f-c70b-4d98-46ea7c76a410.htm" />
+  <HelpKINode Title="ApiRequest.Request property" Url="html/f041c60f-e004-66a0-694d-f4661ec62610.htm" />
+  <HelpKINode Title="ApiRequest.ToJsonString method" Url="html/dbcfbb22-1cfd-0f45-702a-b178c3697557.htm" />
+  <HelpKINode Title="ApiRequest.ToString method" Url="html/794db2fc-b752-8f3b-f54e-ac5c4575e554.htm" />
+  <HelpKINode Title="ApiStatusCode property" Url="html/e1e7524d-b1c5-d654-abc4-9e4624a88141.htm" />
+  <HelpKINode Title="ApiStatusMessage property" Url="html/39197b72-d08a-419a-a08c-9526fde2c32b.htm" />
+  <HelpKINode Title="AtmosPPM property" Url="html/f28bc73e-e105-81ba-e547-f525137c79d2.htm" />
+  <HelpKINode Title="BaseResponseObject class">
+    <HelpKINode Title="BaseResponseObject Class" Url="html/632978a3-8cdb-931a-edbb-03ac76399cb3.htm" />
+    <HelpKINode Title="methods" Url="html/fa89be6e-f627-32d1-f232-f9767cb336ea.htm" />
+    <HelpKINode Title="properties" Url="html/b044f501-aa8d-5f6f-a38a-cde435a9cfb2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseResponseObject.ApiStatusCode property" Url="html/e1e7524d-b1c5-d654-abc4-9e4624a88141.htm" />
+  <HelpKINode Title="BaseResponseObject.ApiStatusMessage property" Url="html/39197b72-d08a-419a-a08c-9526fde2c32b.htm" />
+  <HelpKINode Title="BaseResponseObject.ToJsonString method" Url="html/87dce2ab-4ef5-2b3d-fb44-6a4578a7487d.htm" />
+  <HelpKINode Title="BaseResponseObject.ToString method" Url="html/e259d58e-bc67-8ded-5620-858c2f64ec0b.htm" />
+  <HelpKINode Title="Const class">
+    <HelpKINode Title="Const Class" Url="html/55aaa440-ee0d-da7a-8a82-19c272cd092e.htm" />
+    <HelpKINode Title="fields" Url="html/c83f0683-2257-dcd3-72d2-a1e543ea8eec.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Const.Version field" Url="html/c0c539dc-cdfa-5b41-c4cc-7bfd9ac5a69f.htm" />
+  <HelpKINode Title="Description property">
+    <HelpKINode Title="ApiRequest.Description Property " Url="html/cbb51c08-013f-c70b-4d98-46ea7c76a410.htm" />
+    <HelpKINode Title="ObservationType.Description Property " Url="html/4818902d-6864-80c1-2bcf-bad0448d23c2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Easting property">
+    <HelpKINode Title="Point.Easting Property " Url="html/1086b1ac-1d94-2800-8c6c-0f6d6e953675.htm" />
+    <HelpKINode Title="Result.Easting Property " Url="html/88e58d1a-4834-c3e6-cd52-878887f095e6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EastingDiff property" Url="html/022f95f3-6a91-60e1-8591-737611d0e5cc.htm" />
+  <HelpKINode Title="Eastings property" Url="html/4a8471db-bf2b-b9a7-0be7-b488a92ccbab.htm" />
+  <HelpKINode Title="EnumApiStatusCode enumeration" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="Epoch property">
+    <HelpKINode Title="GenericSetup.Epoch Property " Url="html/b68f3e48-0596-05c2-d8e4-121f7c669d17.htm" />
+    <HelpKINode Title="Message.Epoch Property " Url="html/b722b8be-ce32-24f8-9f91-0814b25ab78a.htm" />
+    <HelpKINode Title="Observation.Epoch Property " Url="html/332eaf4e-766b-7b77-b309-e231976da81f.htm" />
+    <HelpKINode Title="ObservationsByEpoch.Epoch Property " Url="html/38ce87ad-57e5-2f53-212e-ba7c860a7f9e.htm" />
+    <HelpKINode Title="Picture.Epoch Property " Url="html/fdc3981a-efd2-377c-a45c-c4b0dcf82eb6.htm" />
+    <HelpKINode Title="Result.Epoch Property " Url="html/f9f6a56e-8486-9f65-628b-4a07c5be71d3.htm" />
+    <HelpKINode Title="TpsMeasurement.Epoch Property " Url="html/6f6725d3-ae12-b6ef-ebe6-d334e4d8cf09.htm" />
+    <HelpKINode Title="TpsSensor.Epoch Property " Url="html/6433813d-12af-3a5a-0f25-611967d5901d.htm" />
+    <HelpKINode Title="TpsSetup.Epoch Property " Url="html/7d378744-1243-60db-a4c5-3a4a77e631d0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EpochLocal property">
+    <HelpKINode Title="GenericSetup.EpochLocal Property " Url="html/990849b8-e0dd-0ed9-8fda-aa4dc50539fd.htm" />
+    <HelpKINode Title="Message.EpochLocal Property " Url="html/a62c4113-fc75-4ef9-14c0-6a2f92e98c99.htm" />
+    <HelpKINode Title="Observation.EpochLocal Property " Url="html/b988ef1f-a43b-3892-9470-4d8e90d134e6.htm" />
+    <HelpKINode Title="ObservationsByEpoch.EpochLocal Property " Url="html/21e31670-5cee-0af0-4b89-5cd5cf9b640c.htm" />
+    <HelpKINode Title="Picture.EpochLocal Property " Url="html/83c99db8-64bd-051e-43df-8eb2b16f6de6.htm" />
+    <HelpKINode Title="Result.EpochLocal Property " Url="html/d46d7ba6-4c41-e3eb-3edd-e230d92749bf.htm" />
+    <HelpKINode Title="TpsMeasurement.EpochLocal Property " Url="html/866197ec-5129-577f-e330-688ccd1d596d.htm" />
+    <HelpKINode Title="TpsSensor.EpochLocal Property " Url="html/8ba87582-1d39-410a-f325-8580af9f1c49.htm" />
+    <HelpKINode Title="TpsSetup.EpochLocal Property " Url="html/7859bc9f-0137-9cb7-a37c-1be17ab78e5c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Face property" Url="html/a376486d-8ed0-d075-e119-2b2877ea95cb.htm" />
+  <HelpKINode Title="GenericSensor class">
+    <HelpKINode Title="GenericSensor Class" Url="html/a99c5c8c-1782-c52b-9314-f44469021bd0.htm" />
+    <HelpKINode Title="constructor" Url="html/ecfc3cae-67e9-2909-f969-a791f1e87749.htm" />
+    <HelpKINode Title="methods" Url="html/0e516ccd-2859-5f84-332e-87a9cc1b35a1.htm" />
+    <HelpKINode Title="properties" Url="html/36cee6f8-0873-d413-7361-000185daf533.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GenericSensor.Active property" Url="html/9854ccaf-97f5-06c6-08f7-ef53c3d2a1a7.htm" />
+  <HelpKINode Title="GenericSensor.GenericSensor constructor" Url="html/ecfc3cae-67e9-2909-f969-a791f1e87749.htm" />
+  <HelpKINode Title="GenericSensor.Id property" Url="html/0606fa52-9242-3418-b536-b3a48cbd2091.htm" />
+  <HelpKINode Title="GenericSensor.Name property" Url="html/f64a9477-b21e-2abb-48ba-4ab4b5289f9c.htm" />
+  <HelpKINode Title="GenericSensor.Setups property" Url="html/9a8544be-1a5a-6f12-768a-e85a9e4300b0.htm" />
+  <HelpKINode Title="GenericSensor.ToString method" Url="html/f0318668-922f-4a3a-621b-af9f926f48e2.htm" />
+  <HelpKINode Title="GenericSensor.Type property" Url="html/72cc10a5-925c-1669-8cab-440d5de720d1.htm" />
+  <HelpKINode Title="GenericSensorObservations property" Url="html/bc660401-7f28-7680-ccc4-c0a271a40809.htm" />
+  <HelpKINode Title="GenericSensors method" Url="html/df652aa0-e21f-c9f5-5ada-eebda69d5f96.htm" />
+  <HelpKINode Title="GenericSensors property" Url="html/bdf2c7da-ba77-720d-d44e-9243d347341d.htm" />
+  <HelpKINode Title="GenericSensorsJson method" Url="html/8e899502-8e0e-5bf1-7665-e3a8779b38cd.htm" />
+  <HelpKINode Title="GenericSensorsResponseObject class">
+    <HelpKINode Title="GenericSensorsResponseObject Class" Url="html/f67ac32a-c385-6c66-8cae-c5ccc6b8fa24.htm" />
+    <HelpKINode Title="constructor" Url="html/dcb85a0b-1fc8-3abc-769d-511e1d5c3719.htm" />
+    <HelpKINode Title="properties" Url="html/c60f1a79-fed9-2fb8-f990-61cb5e494a96.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GenericSensorsResponseObject.GenericSensors property" Url="html/bdf2c7da-ba77-720d-d44e-9243d347341d.htm" />
+  <HelpKINode Title="GenericSensorsResponseObject.GenericSensorsResponseObject constructor" Url="html/dcb85a0b-1fc8-3abc-769d-511e1d5c3719.htm" />
+  <HelpKINode Title="GenericSetup class">
+    <HelpKINode Title="GenericSetup Class" Url="html/a9988153-9d0c-3cf7-5b92-76a6a43b76f3.htm" />
+    <HelpKINode Title="constructor" Url="html/24307185-e8a9-f8c1-bf98-c2d41229e6eb.htm" />
+    <HelpKINode Title="properties" Url="html/d97c4a25-1aa6-f5dc-62d9-2aad9f5ba452.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GenericSetup.Epoch property" Url="html/b68f3e48-0596-05c2-d8e4-121f7c669d17.htm" />
+  <HelpKINode Title="GenericSetup.EpochLocal property" Url="html/990849b8-e0dd-0ed9-8fda-aa4dc50539fd.htm" />
+  <HelpKINode Title="GenericSetup.GenericSetup constructor" Url="html/24307185-e8a9-f8c1-bf98-c2d41229e6eb.htm" />
+  <HelpKINode Title="GenericSetup.Id property" Url="html/965345e8-ed95-e748-23c4-31c6701e4731.htm" />
+  <HelpKINode Title="GenericSetup.Name property" Url="html/184b412d-fbaa-823e-4975-93414e2269fd.htm" />
+  <HelpKINode Title="GenericSetup.PointId property" Url="html/9511ee34-af51-dec9-dc70-835c003703f5.htm" />
+  <HelpKINode Title="GenericSetups property" Url="html/8c894fc8-651b-7764-c114-60b1a3f10a21.htm" />
+  <HelpKINode Title="GenericSetupsByGenericSensorId method" Url="html/97e2c6b4-badb-5aa8-9a97-324a3ede63d8.htm" />
+  <HelpKINode Title="GenericSetupsByGenericSensorIdJson method" Url="html/b5bce739-d9f5-007a-915a-91468b558fb5.htm" />
+  <HelpKINode Title="GenericSetupsResponseObject class">
+    <HelpKINode Title="GenericSetupsResponseObject Class" Url="html/3472994d-3cb0-f115-641e-893cae6d0c6f.htm" />
+    <HelpKINode Title="constructor" Url="html/e40af112-0bf7-b42a-8959-8a04192644b5.htm" />
+    <HelpKINode Title="properties" Url="html/52371ffd-9f5c-c2be-cce8-bf82c965d395.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GenericSetupsResponseObject.GenericSetups property" Url="html/8c894fc8-651b-7764-c114-60b1a3f10a21.htm" />
+  <HelpKINode Title="GenericSetupsResponseObject.GenericSetupsResponseObject constructor" Url="html/e40af112-0bf7-b42a-8959-8a04192644b5.htm" />
+  <HelpKINode Title="GenericSetupWithObservations class">
+    <HelpKINode Title="GenericSetupWithObservations Class" Url="html/bf773e46-a13a-be08-2153-1c01b2386209.htm" />
+    <HelpKINode Title="constructor" Url="html/aae99891-743b-658a-a0b6-a73a5753a80b.htm" />
+    <HelpKINode Title="properties" Url="html/1cbf0417-5bb7-a791-b2af-103102bae1ac.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GenericSetupWithObservations.GenericSetupWithObservations constructor" Url="html/aae99891-743b-658a-a0b6-a73a5753a80b.htm" />
+  <HelpKINode Title="GenericSetupWithObservations.Id property" Url="html/a5eac510-c55a-0af5-b6d9-cbfbf952b08c.htm" />
+  <HelpKINode Title="GenericSetupWithObservations.ObservationsByEpoch property" Url="html/83675ff0-b737-0baf-5937-87799baf58f5.htm" />
+  <HelpKINode Title="Height property">
+    <HelpKINode Title="Point.Height Property " Url="html/eeba3abd-150c-7a4c-f757-41fc60c5063e.htm" />
+    <HelpKINode Title="Result.Height Property " Url="html/9dec93b0-35be-8e14-9550-8df1a6d4aa86.htm" />
+    <HelpKINode Title="TpsSetup.Height Property " Url="html/4d3447ad-fa2a-25fb-9fe7-7bd800a982c1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HeightDiff property" Url="html/41a45ecd-c779-424c-5916-2a42f295f70e.htm" />
+  <HelpKINode Title="HeightDisplacement property" Url="html/1ce51982-6b6b-37e9-365e-def7e44eac08.htm" />
+  <HelpKINode Title="Humidity property" Url="html/2076838c-a8f8-8db8-e94c-98810e464619.htm" />
+  <HelpKINode Title="HzAngle property" Url="html/f192ebf6-e481-8ed4-f8b2-27078fe53f36.htm" />
+  <HelpKINode Title="Id property">
+    <HelpKINode Title="GenericSensor.Id Property " Url="html/0606fa52-9242-3418-b536-b3a48cbd2091.htm" />
+    <HelpKINode Title="GenericSetup.Id Property " Url="html/965345e8-ed95-e748-23c4-31c6701e4731.htm" />
+    <HelpKINode Title="GenericSetupWithObservations.Id Property " Url="html/a5eac510-c55a-0af5-b6d9-cbfbf952b08c.htm" />
+    <HelpKINode Title="Message.Id Property " Url="html/860e9546-18a2-7d34-76bf-370c7d2bd15d.htm" />
+    <HelpKINode Title="Observation.Id Property " Url="html/8a973bbb-6205-5e00-a881-41de896f28a9.htm" />
+    <HelpKINode Title="ObservationType.Id Property " Url="html/2fdbad5b-dd0d-c6c3-30d5-265ebe62df1e.htm" />
+    <HelpKINode Title="Picture.Id Property " Url="html/e2756bb3-1b8b-1275-8b00-0de183489eb8.htm" />
+    <HelpKINode Title="Point.Id Property " Url="html/b754c02a-7382-1108-e65e-1d94ac15af74.htm" />
+    <HelpKINode Title="Project.Id Property " Url="html/ea7ac176-36ea-6140-0b82-94c71b77835b.htm" />
+    <HelpKINode Title="Result.Id Property " Url="html/f5ee30ce-89f5-908a-70f7-c0609fd7dc84.htm" />
+    <HelpKINode Title="Sensor.Id Property " Url="html/75ab8fe3-a7bc-23f0-1aca-b934fec0ee99.htm" />
+    <HelpKINode Title="TpsMeasurement.Id Property " Url="html/c7c44eb1-3587-2931-6946-d128e743b8d7.htm" />
+    <HelpKINode Title="TpsSensor.Id Property " Url="html/1f98c743-18d2-0e4f-68d3-9b1e5233d1f7.htm" />
+    <HelpKINode Title="TpsSetup.Id Property " Url="html/82b1f0ff-e2e6-746a-de39-058edff9fb2f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IGmRestApi interface">
+    <HelpKINode Title="IGmRestApi Interface" Url="html/309cfa61-7114-fb6b-bbe7-c7912d383921.htm" />
+    <HelpKINode Title="methods" Url="html/ecb49fe0-fda7-786d-cc3d-bfeb4d26e462.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IGmRestApi.GenericSensors method" Url="html/df652aa0-e21f-c9f5-5ada-eebda69d5f96.htm" />
+  <HelpKINode Title="IGmRestApi.GenericSensorsJson method" Url="html/8e899502-8e0e-5bf1-7665-e3a8779b38cd.htm" />
+  <HelpKINode Title="IGmRestApi.GenericSetupsByGenericSensorId method" Url="html/97e2c6b4-badb-5aa8-9a97-324a3ede63d8.htm" />
+  <HelpKINode Title="IGmRestApi.GenericSetupsByGenericSensorIdJson method" Url="html/b5bce739-d9f5-007a-915a-91468b558fb5.htm" />
+  <HelpKINode Title="IGmRestApi.Index method" Url="html/14c8f693-336d-2054-1654-b61235916494.htm" />
+  <HelpKINode Title="IGmRestApi.IndexJson method" Url="html/540e8451-bc88-acb1-3788-f52fa5a1cd2a.htm" />
+  <HelpKINode Title="IGmRestApi.MessagesByPoints method" Url="html/f4cbeb29-a833-faa5-48dd-bf9a2d6e05f0.htm" />
+  <HelpKINode Title="IGmRestApi.MessagesByPointsJson method" Url="html/1907d786-1eb3-ad72-a9d1-29b351c05445.htm" />
+  <HelpKINode Title="IGmRestApi.Observations method" Url="html/67a58cf3-7c8b-085d-b5ae-ae2e93aa4e03.htm" />
+  <HelpKINode Title="IGmRestApi.ObservationsByGenericSensor method" Url="html/9168e05a-4aa6-da43-b28a-d9c54ea2cd3a.htm" />
+  <HelpKINode Title="IGmRestApi.ObservationsByGenericSensorJson method" Url="html/83c360ad-4b77-1a05-44f6-0b00ece41ab8.htm" />
+  <HelpKINode Title="IGmRestApi.ObservationsByPoints method" Url="html/54019bd7-5161-7646-03a6-8c3eb2f2f819.htm" />
+  <HelpKINode Title="IGmRestApi.ObservationsByPointsJson method" Url="html/e532f56c-9c5e-d37b-4175-d5cd081c362d.htm" />
+  <HelpKINode Title="IGmRestApi.ObservationsJson method" Url="html/7327a185-9f3a-a3a4-ffb7-9b604a005f11.htm" />
+  <HelpKINode Title="IGmRestApi.ObservationTypes method" Url="html/a4d43739-b5ee-d59d-f485-80379f4f6595.htm" />
+  <HelpKINode Title="IGmRestApi.ObservationTypesJson method" Url="html/0ae9d434-2c6e-7d36-4873-6376c04eba57.htm" />
+  <HelpKINode Title="IGmRestApi.Picture method" Url="html/731cae18-2a3e-66f0-ffd3-d94ca90739ff.htm" />
+  <HelpKINode Title="IGmRestApi.PictureById method" Url="html/fa5efc1c-ee5b-5aac-5a35-6ae885abe79a.htm" />
+  <HelpKINode Title="IGmRestApi.Pictures method" Url="html/9c287cfe-3629-157e-016e-6708bd32e635.htm" />
+  <HelpKINode Title="IGmRestApi.PicturesJson method" Url="html/4072902d-9a46-a3d0-3041-e2f4429a9e1a.htm" />
+  <HelpKINode Title="IGmRestApi.Points method" Url="html/c036f94d-74bd-761c-25a6-08ec66f8076a.htm" />
+  <HelpKINode Title="IGmRestApi.PointsInPolygon method" Url="html/4ec9a153-2924-f1ee-c247-fe60d06740c1.htm" />
+  <HelpKINode Title="IGmRestApi.PointsInPolygonJson method" Url="html/bd3ae409-eb01-cf65-7f43-f59940d9d8ae.htm" />
+  <HelpKINode Title="IGmRestApi.PointsJson method" Url="html/ef6d637b-86be-884b-61f0-4cb96fbe23b1.htm" />
+  <HelpKINode Title="IGmRestApi.PointsWithPictures method" Url="html/386e3758-b2d2-81df-9033-b605c3dc683b.htm" />
+  <HelpKINode Title="IGmRestApi.PointsWithPicturesJson method" Url="html/b7e3c564-445d-b502-fa05-3fa3c34b962e.htm" />
+  <HelpKINode Title="IGmRestApi.Profiles method" Url="html/9320d304-d498-0899-6c37-ad583e44a9de.htm" />
+  <HelpKINode Title="IGmRestApi.ProfilesJson method" Url="html/d09519e8-ea21-349f-4ac5-abf129cd993d.htm" />
+  <HelpKINode Title="IGmRestApi.Projects method" Url="html/b2632a71-e34c-98d2-bc9f-f627ea8c30b8.htm" />
+  <HelpKINode Title="IGmRestApi.ProjectsJson method" Url="html/6e8c681b-7fb1-e6f8-4e62-0a98f66da645.htm" />
+  <HelpKINode Title="IGmRestApi.Results method" Url="html/63e0a949-ff60-0d9a-9a2f-9fef51689c70.htm" />
+  <HelpKINode Title="IGmRestApi.ResultsByPoints method" Url="html/948dd102-a212-70be-2815-40cd8008a729.htm" />
+  <HelpKINode Title="IGmRestApi.ResultsByPointsJson method" Url="html/2fecded4-37ad-a060-6794-0135fa4a2d2a.htm" />
+  <HelpKINode Title="IGmRestApi.ResultsJson method" Url="html/b46108f5-cd91-048c-09d7-66631ef00537.htm" />
+  <HelpKINode Title="IGmRestApi.Root method" Url="html/54fc6183-f8e2-7a58-03fc-f5869ae8eb76.htm" />
+  <HelpKINode Title="IGmRestApi.Sensors method" Url="html/b4ee2f3e-608d-9088-2607-ee60f7f299e3.htm" />
+  <HelpKINode Title="IGmRestApi.SensorsJson method" Url="html/ad876dd2-fe10-a791-6d6a-fd2807f73cb1.htm" />
+  <HelpKINode Title="IGmRestApi.TpsMeasurementsByPoints method" Url="html/28293756-ef1c-8300-a43b-0ab362988988.htm" />
+  <HelpKINode Title="IGmRestApi.TpsMeasurementsByPointsJson method" Url="html/2255f173-6a75-8d36-102c-77d866a9d3b2.htm" />
+  <HelpKINode Title="IGmRestApi.TpsResultsWithMeasurement method" Url="html/591f3dea-e6a0-e164-0bbb-856c4fd6b9a2.htm" />
+  <HelpKINode Title="IGmRestApi.TpsResultsWithMeasurementJson method" Url="html/23e4c178-9288-bcef-b720-162cb43e8ac8.htm" />
+  <HelpKINode Title="IGmRestApi.TpsSensors method" Url="html/3ecd955e-d831-4e2b-7e0e-20ab213c772b.htm" />
+  <HelpKINode Title="IGmRestApi.TpsSensorsJson method" Url="html/5598010a-1a25-43e6-b2b1-cfb861896060.htm" />
+  <HelpKINode Title="IGmRestApi.TpsSetups method" Url="html/516d658f-627c-76ce-545a-35dfeb89eca8.htm" />
+  <HelpKINode Title="IGmRestApi.TpsSetupsJson method" Url="html/d3aaba7d-3892-40e4-6243-dc2b03f955db.htm" />
+  <HelpKINode Title="Index method" Url="html/14c8f693-336d-2054-1654-b61235916494.htm" />
+  <HelpKINode Title="IndexJson method" Url="html/540e8451-bc88-acb1-3788-f52fa5a1cd2a.htm" />
+  <HelpKINode Title="InstrumentHeight property" Url="html/cf7a770a-29d9-e88b-335a-0837a98d0570.htm" />
+  <HelpKINode Title="invalidEndTime enumeration member" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="invalidIdFormat enumeration member" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="invalidStartTime enumeration member" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi namespace" Url="html/388d2881-3623-0ad8-48f8-b47017d0e146.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Const class" Url="html/55aaa440-ee0d-da7a-8a82-19c272cd092e.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.IGmRestApi interface" Url="html/309cfa61-7114-fb6b-bbe7-c7912d383921.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects namespace" Url="html/a643b201-ddb1-0d8c-3f4f-c2b330796ae8.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.ApiRequest class" Url="html/3affcfb9-de42-55f0-c65f-706fbbfa7bf4.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.BaseResponseObject class" Url="html/632978a3-8cdb-931a-edbb-03ac76399cb3.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.EnumApiStatusCode enumeration" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.GenericSensor class" Url="html/a99c5c8c-1782-c52b-9314-f44469021bd0.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.GenericSensorsResponseObject class" Url="html/f67ac32a-c385-6c66-8cae-c5ccc6b8fa24.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.GenericSetup class" Url="html/a9988153-9d0c-3cf7-5b92-76a6a43b76f3.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.GenericSetupsResponseObject class" Url="html/3472994d-3cb0-f115-641e-893cae6d0c6f.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.GenericSetupWithObservations class" Url="html/bf773e46-a13a-be08-2153-1c01b2386209.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.Message class" Url="html/7f3f05e3-1d76-aa36-9def-789fc2457dd2.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.MessagesResponseObject class" Url="html/01f5d189-49ed-53be-f7ca-bf6629fbb1bd.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.Observation class" Url="html/f0a66d64-d6c1-5724-c146-a041f942dddb.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.ObservationsByEpoch class" Url="html/4970ee78-9782-fc7f-5004-ae3988ab87eb.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.ObservationsByGenericSetupResponseObject class" Url="html/40a95396-3d56-9d24-2119-8ae37492ea88.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.ObservationsResponseObject class" Url="html/1e5a7a05-860d-94f1-3942-f03155359785.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.ObservationType class" Url="html/b2691393-d6d2-0ded-58f7-f167a7154d9b.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.ObservationTypesResponseObject class" Url="html/ffce8f28-bc67-8734-90f0-ec5cc178be8f.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.Picture class" Url="html/05bfee17-09b8-f29c-c1a7-6ea3b92496e2.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.PicturesResponseObject class" Url="html/0d1265ac-b594-2f55-36ad-3d2df47ca995.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.Point class" Url="html/147efccb-9ebe-af45-26a6-8b490dfcbad3.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.PointsResponseObject class" Url="html/33ec12a6-8341-3feb-0c95-58f1af2ba0dc.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.ProfilesResponseObject class" Url="html/ad10bd8b-32bb-8cf8-a4c2-48f9eca59fec.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.Project class" Url="html/69d38f14-ad60-1a09-36e9-acc48b3fcbf4.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.ProjectsResponseObject class" Url="html/0e10f71a-7172-47ca-475e-153f9cfe3cc7.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.Result class" Url="html/1655667e-57bf-463c-4e0c-5c4defd3fb16.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.ResultsResponseObject class" Url="html/815a27f5-5bf2-1ee7-f971-4a2a96b9a6e2.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.Sensor class" Url="html/f26c2263-c280-a77e-04d0-23736b1d8093.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.SensorsResponseObject class" Url="html/878bb68c-33da-8e03-1f26-272082742116.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.TpsMeasurement class" Url="html/9c5f6624-ac6e-12c6-900a-deae02e90e07.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.TpsMeasurementsResponseObject class" Url="html/4b1a7472-c6b9-2e43-207a-5896ad82a5e9.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.TpsResultsWithMeasurementResponseObject class" Url="html/29f9efbd-72a9-5524-4218-2022525dcf35.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.TpsResultWithMeasurement class" Url="html/875c5949-9d34-e582-67c4-41c96e66feaf.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.TpsSensor class" Url="html/531e6b0b-2422-4d0b-aa47-2cca57579c7b.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.TpsSensorsResponseObject class" Url="html/e6df830f-8956-d955-9e04-44733c306693.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.TpsSetup class" Url="html/8cee97de-48b8-5b0b-15f4-c434968f0547.htm" />
+  <HelpKINode Title="Leica.GeoMoS.Services.RestApi.Objects.TpsSetupsResponseObject class" Url="html/0631a859-4cd3-465a-3b1e-14e45ec2a772.htm" />
+  <HelpKINode Title="licenseNotValid enumeration member" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="licenseOptionNotSet enumeration member" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="LongitudeTilt property" Url="html/06f17ec0-f8ca-7a9b-bbc2-4b455486eb80.htm" />
+  <HelpKINode Title="LongitudinalDisplacement property" Url="html/335edeb0-f319-5f27-687c-b4bf0f66f58d.htm" />
+  <HelpKINode Title="MeasurementPointName property" Url="html/5f1a325a-c479-6dc1-497f-78acb7919a29.htm" />
+  <HelpKINode Title="Message class">
+    <HelpKINode Title="Message Class" Url="html/7f3f05e3-1d76-aa36-9def-789fc2457dd2.htm" />
+    <HelpKINode Title="constructor" Url="html/7891c886-d9a5-a6b3-ca65-cf87db2676fc.htm" />
+    <HelpKINode Title="properties" Url="html/2c213e11-8ba4-d328-be2c-458c328cf965.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Message.Epoch property" Url="html/b722b8be-ce32-24f8-9f91-0814b25ab78a.htm" />
+  <HelpKINode Title="Message.EpochLocal property" Url="html/a62c4113-fc75-4ef9-14c0-6a2f92e98c99.htm" />
+  <HelpKINode Title="Message.Id property" Url="html/860e9546-18a2-7d34-76bf-370c7d2bd15d.htm" />
+  <HelpKINode Title="Message.Message constructor" Url="html/7891c886-d9a5-a6b3-ca65-cf87db2676fc.htm" />
+  <HelpKINode Title="Message.PointId property" Url="html/4f6e62d5-fa4a-4404-a33f-5e03cb0f235f.htm" />
+  <HelpKINode Title="Message.PointName property" Url="html/1f6d22d0-9437-e195-d270-f5deaa9dd9ee.htm" />
+  <HelpKINode Title="Message.SensorName property" Url="html/206c4675-86c8-b2e9-e55c-351391e1b3ac.htm" />
+  <HelpKINode Title="Message.Text property" Url="html/580646b4-6ab7-33e4-1ee6-4fcc6dbae588.htm" />
+  <HelpKINode Title="Message.Type property" Url="html/7e19ba35-eee1-02b7-d425-c08160fb1bf6.htm" />
+  <HelpKINode Title="Messages property" Url="html/8f584c04-106e-9f26-3c37-479cadff7b74.htm" />
+  <HelpKINode Title="MessagesByPoints method" Url="html/f4cbeb29-a833-faa5-48dd-bf9a2d6e05f0.htm" />
+  <HelpKINode Title="MessagesByPointsJson method" Url="html/1907d786-1eb3-ad72-a9d1-29b351c05445.htm" />
+  <HelpKINode Title="MessagesResponseObject class">
+    <HelpKINode Title="MessagesResponseObject Class" Url="html/01f5d189-49ed-53be-f7ca-bf6629fbb1bd.htm" />
+    <HelpKINode Title="constructor" Url="html/2a87b966-a829-1b51-10d8-14618460cfd6.htm" />
+    <HelpKINode Title="properties" Url="html/99abe006-60ea-2690-bcba-6b17a8a9d678.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MessagesResponseObject.Messages property" Url="html/8f584c04-106e-9f26-3c37-479cadff7b74.htm" />
+  <HelpKINode Title="MessagesResponseObject.MessagesResponseObject constructor" Url="html/2a87b966-a829-1b51-10d8-14618460cfd6.htm" />
+  <HelpKINode Title="Name property">
+    <HelpKINode Title="GenericSensor.Name Property " Url="html/f64a9477-b21e-2abb-48ba-4ab4b5289f9c.htm" />
+    <HelpKINode Title="GenericSetup.Name Property " Url="html/184b412d-fbaa-823e-4975-93414e2269fd.htm" />
+    <HelpKINode Title="ObservationType.Name Property " Url="html/eeb5c631-25d7-592d-adff-cefce01a2d25.htm" />
+    <HelpKINode Title="Point.Name Property " Url="html/d21bda91-a3ee-a4de-a8ca-1ef1862528f8.htm" />
+    <HelpKINode Title="Project.Name Property " Url="html/2ef7cc5b-d676-8a2f-7075-40a579a27bc2.htm" />
+    <HelpKINode Title="Sensor.Name Property " Url="html/ead6178e-1935-e596-2ea1-4499247da907.htm" />
+  </HelpKINode>
+  <HelpKINode Title="noDataFound enumeration member" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="noGenericSensorFound enumeration member" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="noPictureFound enumeration member" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="noPointsFound enumeration member" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="noProjectFound enumeration member" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="Northing property">
+    <HelpKINode Title="Point.Northing Property " Url="html/ef40bd6c-c05e-5f3a-c531-3385e56cb268.htm" />
+    <HelpKINode Title="Result.Northing Property " Url="html/07ad21fc-d5ea-225b-67c0-9eeff2459069.htm" />
+    <HelpKINode Title="TpsSetup.Northing Property " Url="html/0b8661d1-8e83-3cab-1ba1-85bfd7a7f0e9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NorthingDiff property" Url="html/824252c6-18f1-ec34-83d6-67e92c75cd2f.htm" />
+  <HelpKINode Title="notAuthorized enumeration member" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="Observation class">
+    <HelpKINode Title="Observation Class" Url="html/f0a66d64-d6c1-5724-c146-a041f942dddb.htm" />
+    <HelpKINode Title="properties" Url="html/cc0f6f48-1782-d3cd-ef63-3034364e6263.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Observation.Epoch property" Url="html/332eaf4e-766b-7b77-b309-e231976da81f.htm" />
+  <HelpKINode Title="Observation.EpochLocal property" Url="html/b988ef1f-a43b-3892-9470-4d8e90d134e6.htm" />
+  <HelpKINode Title="Observation.Id property" Url="html/8a973bbb-6205-5e00-a881-41de896f28a9.htm" />
+  <HelpKINode Title="Observation.ObservationTypeId property" Url="html/56d7a7f3-5c47-8578-f543-cc9d64df97d9.htm" />
+  <HelpKINode Title="Observation.PointId property" Url="html/0e92833d-a2d1-59fd-63d3-07c8f9eb96a4.htm" />
+  <HelpKINode Title="Observation.Value property" Url="html/7f3f2de5-2640-b3a7-5715-2518d508e33e.htm" />
+  <HelpKINode Title="Observations method" Url="html/67a58cf3-7c8b-085d-b5ae-ae2e93aa4e03.htm" />
+  <HelpKINode Title="Observations property">
+    <HelpKINode Title="ObservationsByEpoch.Observations Property " Url="html/27130e4c-48f9-363c-b22e-295ed5604471.htm" />
+    <HelpKINode Title="ObservationsResponseObject.Observations Property " Url="html/6d9fa397-4dff-14be-2072-6b272cfbab95.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObservationsByEpoch class">
+    <HelpKINode Title="ObservationsByEpoch Class" Url="html/4970ee78-9782-fc7f-5004-ae3988ab87eb.htm" />
+    <HelpKINode Title="constructor" Url="html/88f67899-13f0-3187-6a9a-ee737a5f15e2.htm" />
+    <HelpKINode Title="properties" Url="html/f4829a9d-defa-ab26-81c5-7f319e7e12eb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObservationsByEpoch property" Url="html/83675ff0-b737-0baf-5937-87799baf58f5.htm" />
+  <HelpKINode Title="ObservationsByEpoch.Epoch property" Url="html/38ce87ad-57e5-2f53-212e-ba7c860a7f9e.htm" />
+  <HelpKINode Title="ObservationsByEpoch.EpochLocal property" Url="html/21e31670-5cee-0af0-4b89-5cd5cf9b640c.htm" />
+  <HelpKINode Title="ObservationsByEpoch.Observations property" Url="html/27130e4c-48f9-363c-b22e-295ed5604471.htm" />
+  <HelpKINode Title="ObservationsByEpoch.ObservationsByEpoch constructor" Url="html/88f67899-13f0-3187-6a9a-ee737a5f15e2.htm" />
+  <HelpKINode Title="ObservationsByGenericSensor method" Url="html/9168e05a-4aa6-da43-b28a-d9c54ea2cd3a.htm" />
+  <HelpKINode Title="ObservationsByGenericSensorJson method" Url="html/83c360ad-4b77-1a05-44f6-0b00ece41ab8.htm" />
+  <HelpKINode Title="ObservationsByGenericSetupResponseObject class">
+    <HelpKINode Title="ObservationsByGenericSetupResponseObject Class" Url="html/40a95396-3d56-9d24-2119-8ae37492ea88.htm" />
+    <HelpKINode Title="constructor" Url="html/3f0fa9e3-6bfd-d1b5-588c-d8b3758b092c.htm" />
+    <HelpKINode Title="properties" Url="html/6ac72793-f1dd-7585-e2bc-92b35ea3c32d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObservationsByGenericSetupResponseObject.GenericSensorObservations property" Url="html/bc660401-7f28-7680-ccc4-c0a271a40809.htm" />
+  <HelpKINode Title="ObservationsByGenericSetupResponseObject.ObservationsByGenericSetupResponseObject constructor" Url="html/3f0fa9e3-6bfd-d1b5-588c-d8b3758b092c.htm" />
+  <HelpKINode Title="ObservationsByPoints method" Url="html/54019bd7-5161-7646-03a6-8c3eb2f2f819.htm" />
+  <HelpKINode Title="ObservationsByPointsJson method" Url="html/e532f56c-9c5e-d37b-4175-d5cd081c362d.htm" />
+  <HelpKINode Title="ObservationsJson method" Url="html/7327a185-9f3a-a3a4-ffb7-9b604a005f11.htm" />
+  <HelpKINode Title="ObservationsResponseObject class">
+    <HelpKINode Title="ObservationsResponseObject Class" Url="html/1e5a7a05-860d-94f1-3942-f03155359785.htm" />
+    <HelpKINode Title="properties" Url="html/028ceafe-0eec-345a-3d09-e2e2005e75ca.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObservationsResponseObject.Observations property" Url="html/6d9fa397-4dff-14be-2072-6b272cfbab95.htm" />
+  <HelpKINode Title="ObservationType class">
+    <HelpKINode Title="ObservationType Class" Url="html/b2691393-d6d2-0ded-58f7-f167a7154d9b.htm" />
+    <HelpKINode Title="properties" Url="html/a10be5a6-135e-885e-500d-cf07f81b9bcf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObservationType.Description property" Url="html/4818902d-6864-80c1-2bcf-bad0448d23c2.htm" />
+  <HelpKINode Title="ObservationType.Id property" Url="html/2fdbad5b-dd0d-c6c3-30d5-265ebe62df1e.htm" />
+  <HelpKINode Title="ObservationType.Name property" Url="html/eeb5c631-25d7-592d-adff-cefce01a2d25.htm" />
+  <HelpKINode Title="ObservationTypeId property" Url="html/56d7a7f3-5c47-8578-f543-cc9d64df97d9.htm" />
+  <HelpKINode Title="observationTypeInvalid enumeration member" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="ObservationTypes method" Url="html/a4d43739-b5ee-d59d-f485-80379f4f6595.htm" />
+  <HelpKINode Title="ObservationTypes property" Url="html/e54d38b1-f384-55ef-28cf-218c9b16b682.htm" />
+  <HelpKINode Title="ObservationTypesJson method" Url="html/0ae9d434-2c6e-7d36-4873-6376c04eba57.htm" />
+  <HelpKINode Title="ObservationTypesResponseObject class">
+    <HelpKINode Title="ObservationTypesResponseObject Class" Url="html/ffce8f28-bc67-8734-90f0-ec5cc178be8f.htm" />
+    <HelpKINode Title="properties" Url="html/eb4d7282-8772-dc82-77b9-734fcb2980ec.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObservationTypesResponseObject.ObservationTypes property" Url="html/e54d38b1-f384-55ef-28cf-218c9b16b682.htm" />
+  <HelpKINode Title="ok enumeration member" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="Orientation property">
+    <HelpKINode Title="TpsMeasurement.Orientation Property " Url="html/f1ef8bb9-bd90-1def-eb89-d3e25f6e4ae5.htm" />
+    <HelpKINode Title="TpsSetup.Orientation Property " Url="html/eec8c2b6-8bce-593b-d315-f210c783fcf4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Picture class">
+    <HelpKINode Title="Picture Class" Url="html/05bfee17-09b8-f29c-c1a7-6ea3b92496e2.htm" />
+    <HelpKINode Title="constructor" Url="html/0940d3db-62b0-c377-0e0b-4a4467892fc3.htm" />
+    <HelpKINode Title="properties" Url="html/bfd0cc9b-6afd-54fc-120c-8432da7c64c4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Picture method" Url="html/731cae18-2a3e-66f0-ffd3-d94ca90739ff.htm" />
+  <HelpKINode Title="Picture.Epoch property" Url="html/fdc3981a-efd2-377c-a45c-c4b0dcf82eb6.htm" />
+  <HelpKINode Title="Picture.EpochLocal property" Url="html/83c99db8-64bd-051e-43df-8eb2b16f6de6.htm" />
+  <HelpKINode Title="Picture.Id property" Url="html/e2756bb3-1b8b-1275-8b00-0de183489eb8.htm" />
+  <HelpKINode Title="Picture.Picture constructor" Url="html/0940d3db-62b0-c377-0e0b-4a4467892fc3.htm" />
+  <HelpKINode Title="Picture.PointId property" Url="html/ae4576f3-7f20-69e7-0c81-84fc22e7da61.htm" />
+  <HelpKINode Title="Picture.Type property" Url="html/3b5c0a06-bb23-fd8f-048f-b12bdd30294d.htm" />
+  <HelpKINode Title="PictureById method" Url="html/fa5efc1c-ee5b-5aac-5a35-6ae885abe79a.htm" />
+  <HelpKINode Title="Pictures method" Url="html/9c287cfe-3629-157e-016e-6708bd32e635.htm" />
+  <HelpKINode Title="Pictures property" Url="html/b8fb60e9-e9f7-e7f6-5b32-27a435b2f323.htm" />
+  <HelpKINode Title="PicturesJson method" Url="html/4072902d-9a46-a3d0-3041-e2f4429a9e1a.htm" />
+  <HelpKINode Title="PicturesResponseObject class">
+    <HelpKINode Title="PicturesResponseObject Class" Url="html/0d1265ac-b594-2f55-36ad-3d2df47ca995.htm" />
+    <HelpKINode Title="constructor" Url="html/534e76a8-cfab-bfec-0c9e-e4e05b9eab4d.htm" />
+    <HelpKINode Title="properties" Url="html/344123d0-d3e1-887a-119e-39388473453d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PicturesResponseObject.Pictures property" Url="html/b8fb60e9-e9f7-e7f6-5b32-27a435b2f323.htm" />
+  <HelpKINode Title="PicturesResponseObject.PicturesResponseObject constructor" Url="html/534e76a8-cfab-bfec-0c9e-e4e05b9eab4d.htm" />
+  <HelpKINode Title="pictureTypeInvalid enumeration member" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="Point class">
+    <HelpKINode Title="Point Class" Url="html/147efccb-9ebe-af45-26a6-8b490dfcbad3.htm" />
+    <HelpKINode Title="properties" Url="html/2bbb1cda-da0d-b25e-9d48-b939bd03dc14.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Point.Easting property" Url="html/1086b1ac-1d94-2800-8c6c-0f6d6e953675.htm" />
+  <HelpKINode Title="Point.Height property" Url="html/eeba3abd-150c-7a4c-f757-41fc60c5063e.htm" />
+  <HelpKINode Title="Point.Id property" Url="html/b754c02a-7382-1108-e65e-1d94ac15af74.htm" />
+  <HelpKINode Title="Point.Name property" Url="html/d21bda91-a3ee-a4de-a8ca-1ef1862528f8.htm" />
+  <HelpKINode Title="Point.Northing property" Url="html/ef40bd6c-c05e-5f3a-c531-3385e56cb268.htm" />
+  <HelpKINode Title="Point.ProfileId property" Url="html/01aa63fb-55df-b476-8972-77b8bb57503b.htm" />
+  <HelpKINode Title="PointId property">
+    <HelpKINode Title="GenericSetup.PointId Property " Url="html/9511ee34-af51-dec9-dc70-835c003703f5.htm" />
+    <HelpKINode Title="Message.PointId Property " Url="html/4f6e62d5-fa4a-4404-a33f-5e03cb0f235f.htm" />
+    <HelpKINode Title="Observation.PointId Property " Url="html/0e92833d-a2d1-59fd-63d3-07c8f9eb96a4.htm" />
+    <HelpKINode Title="Picture.PointId Property " Url="html/ae4576f3-7f20-69e7-0c81-84fc22e7da61.htm" />
+    <HelpKINode Title="Result.PointId Property " Url="html/bc179ba0-af69-c1a9-f19e-9f1b52b5368e.htm" />
+    <HelpKINode Title="TpsMeasurement.PointId Property " Url="html/ae60d113-136e-19f1-e34d-9fe6220fd9c9.htm" />
+    <HelpKINode Title="TpsSensor.PointId Property " Url="html/43861194-e484-b46d-9103-7f8ea00b1002.htm" />
+    <HelpKINode Title="TpsSetup.PointId Property " Url="html/1ed301b2-2756-0684-25bc-533da908daa6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PointName property">
+    <HelpKINode Title="Message.PointName Property " Url="html/1f6d22d0-9437-e195-d270-f5deaa9dd9ee.htm" />
+    <HelpKINode Title="TpsSensor.PointName Property " Url="html/89e31441-c5ec-266f-b52f-0971c84a32a7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="pointNotExists enumeration member" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="Points method" Url="html/c036f94d-74bd-761c-25a6-08ec66f8076a.htm" />
+  <HelpKINode Title="Points property" Url="html/f92afd77-d592-d09e-8293-3be99b29150a.htm" />
+  <HelpKINode Title="PointsInPolygon method" Url="html/4ec9a153-2924-f1ee-c247-fe60d06740c1.htm" />
+  <HelpKINode Title="PointsInPolygonJson method" Url="html/bd3ae409-eb01-cf65-7f43-f59940d9d8ae.htm" />
+  <HelpKINode Title="PointsJson method" Url="html/ef6d637b-86be-884b-61f0-4cb96fbe23b1.htm" />
+  <HelpKINode Title="PointsResponseObject class">
+    <HelpKINode Title="PointsResponseObject Class" Url="html/33ec12a6-8341-3feb-0c95-58f1af2ba0dc.htm" />
+    <HelpKINode Title="properties" Url="html/adc5e216-cac6-2fbd-b4a8-fd8c4d418c25.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PointsResponseObject.Points property" Url="html/f92afd77-d592-d09e-8293-3be99b29150a.htm" />
+  <HelpKINode Title="PointsWithPictures method" Url="html/386e3758-b2d2-81df-9033-b605c3dc683b.htm" />
+  <HelpKINode Title="PointsWithPicturesJson method" Url="html/b7e3c564-445d-b502-fa05-3fa3c34b962e.htm" />
+  <HelpKINode Title="PPM property" Url="html/fb1bf8cd-468e-136d-8279-a7b007e767fc.htm" />
+  <HelpKINode Title="Pressure property" Url="html/72b0de14-3c07-3f3e-df1d-4ef891610535.htm" />
+  <HelpKINode Title="ProfileId property" Url="html/01aa63fb-55df-b476-8972-77b8bb57503b.htm" />
+  <HelpKINode Title="Profiles method" Url="html/9320d304-d498-0899-6c37-ad583e44a9de.htm" />
+  <HelpKINode Title="Profiles property" Url="html/e21807e9-bdc5-c12e-b9a4-c8b992d22242.htm" />
+  <HelpKINode Title="ProfilesJson method" Url="html/d09519e8-ea21-349f-4ac5-abf129cd993d.htm" />
+  <HelpKINode Title="ProfilesResponseObject class">
+    <HelpKINode Title="ProfilesResponseObject Class" Url="html/ad10bd8b-32bb-8cf8-a4c2-48f9eca59fec.htm" />
+    <HelpKINode Title="constructor" Url="html/f6f0da57-7c6e-80fb-ce60-6a5c604f4264.htm" />
+    <HelpKINode Title="properties" Url="html/6ede7fd0-3b67-8fba-727b-7bc7cc39e5ad.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProfilesResponseObject.Profiles property" Url="html/e21807e9-bdc5-c12e-b9a4-c8b992d22242.htm" />
+  <HelpKINode Title="ProfilesResponseObject.ProfilesResponseObject constructor" Url="html/f6f0da57-7c6e-80fb-ce60-6a5c604f4264.htm" />
+  <HelpKINode Title="Project class">
+    <HelpKINode Title="Project Class" Url="html/69d38f14-ad60-1a09-36e9-acc48b3fcbf4.htm" />
+    <HelpKINode Title="methods" Url="html/337d0cac-fcf5-7b61-7531-2a9c3c8d5ef7.htm" />
+    <HelpKINode Title="properties" Url="html/667a3106-02ac-9300-efa6-e1a2cb589374.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Project.Id property" Url="html/ea7ac176-36ea-6140-0b82-94c71b77835b.htm" />
+  <HelpKINode Title="Project.Name property" Url="html/2ef7cc5b-d676-8a2f-7075-40a579a27bc2.htm" />
+  <HelpKINode Title="Project.ToString method" Url="html/1655dd28-e3a3-d357-476b-0c357672dac9.htm" />
+  <HelpKINode Title="Projects method" Url="html/b2632a71-e34c-98d2-bc9f-f627ea8c30b8.htm" />
+  <HelpKINode Title="Projects property" Url="html/10b4ff9c-9ded-cb29-4f28-61b4b19b865e.htm" />
+  <HelpKINode Title="ProjectsJson method" Url="html/6e8c681b-7fb1-e6f8-4e62-0a98f66da645.htm" />
+  <HelpKINode Title="ProjectsResponseObject class">
+    <HelpKINode Title="ProjectsResponseObject Class" Url="html/0e10f71a-7172-47ca-475e-153f9cfe3cc7.htm" />
+    <HelpKINode Title="properties" Url="html/d6de3038-0a93-3cd0-1573-077169987c97.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProjectsResponseObject.Projects property" Url="html/10b4ff9c-9ded-cb29-4f28-61b4b19b865e.htm" />
+  <HelpKINode Title="ReflectorConstant property" Url="html/9ca22c45-9c91-3b3a-18e0-44dc9566cba5.htm" />
+  <HelpKINode Title="ReflectorHeight property" Url="html/7a9693b2-6e1b-0bb9-515a-d9bdfbe3f935.htm" />
+  <HelpKINode Title="RefPPM property" Url="html/88582f42-bdec-f9c2-729e-023c090af7eb.htm" />
+  <HelpKINode Title="Request property" Url="html/f041c60f-e004-66a0-694d-f4661ec62610.htm" />
+  <HelpKINode Title="Result class">
+    <HelpKINode Title="Result Class" Url="html/1655667e-57bf-463c-4e0c-5c4defd3fb16.htm" />
+    <HelpKINode Title="properties" Url="html/2920f81f-42fb-a203-2b13-106b372c5df5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Result property" Url="html/b699b2b5-97fb-825d-b6a2-2313223a37c9.htm" />
+  <HelpKINode Title="Result.Easting property" Url="html/88e58d1a-4834-c3e6-cd52-878887f095e6.htm" />
+  <HelpKINode Title="Result.EastingDiff property" Url="html/022f95f3-6a91-60e1-8591-737611d0e5cc.htm" />
+  <HelpKINode Title="Result.Epoch property" Url="html/f9f6a56e-8486-9f65-628b-4a07c5be71d3.htm" />
+  <HelpKINode Title="Result.EpochLocal property" Url="html/d46d7ba6-4c41-e3eb-3edd-e230d92749bf.htm" />
+  <HelpKINode Title="Result.Height property" Url="html/9dec93b0-35be-8e14-9550-8df1a6d4aa86.htm" />
+  <HelpKINode Title="Result.HeightDiff property" Url="html/41a45ecd-c779-424c-5916-2a42f295f70e.htm" />
+  <HelpKINode Title="Result.HeightDisplacement property" Url="html/1ce51982-6b6b-37e9-365e-def7e44eac08.htm" />
+  <HelpKINode Title="Result.Id property" Url="html/f5ee30ce-89f5-908a-70f7-c0609fd7dc84.htm" />
+  <HelpKINode Title="Result.LongitudinalDisplacement property" Url="html/335edeb0-f319-5f27-687c-b4bf0f66f58d.htm" />
+  <HelpKINode Title="Result.Northing property" Url="html/07ad21fc-d5ea-225b-67c0-9eeff2459069.htm" />
+  <HelpKINode Title="Result.NorthingDiff property" Url="html/824252c6-18f1-ec34-83d6-67e92c75cd2f.htm" />
+  <HelpKINode Title="Result.PointId property" Url="html/bc179ba0-af69-c1a9-f19e-9f1b52b5368e.htm" />
+  <HelpKINode Title="Result.TransverseDisplacement property" Url="html/fa4ef15b-b8ca-dfaf-6db9-4df11e7836b0.htm" />
+  <HelpKINode Title="Result.Type property" Url="html/3e868d32-8186-f438-dae4-4fed448d5eae.htm" />
+  <HelpKINode Title="Results method" Url="html/63e0a949-ff60-0d9a-9a2f-9fef51689c70.htm" />
+  <HelpKINode Title="Results property" Url="html/3c4d78a0-385a-c887-8f33-edf903d33f44.htm" />
+  <HelpKINode Title="ResultsByPoints method" Url="html/948dd102-a212-70be-2815-40cd8008a729.htm" />
+  <HelpKINode Title="ResultsByPointsJson method" Url="html/2fecded4-37ad-a060-6794-0135fa4a2d2a.htm" />
+  <HelpKINode Title="ResultsJson method" Url="html/b46108f5-cd91-048c-09d7-66631ef00537.htm" />
+  <HelpKINode Title="ResultsResponseObject class">
+    <HelpKINode Title="ResultsResponseObject Class" Url="html/815a27f5-5bf2-1ee7-f971-4a2a96b9a6e2.htm" />
+    <HelpKINode Title="properties" Url="html/7582420d-766d-235b-8a6f-2fb15c0fb8a1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ResultsResponseObject.Results property" Url="html/3c4d78a0-385a-c887-8f33-edf903d33f44.htm" />
+  <HelpKINode Title="Root method" Url="html/54fc6183-f8e2-7a58-03fc-f5869ae8eb76.htm" />
+  <HelpKINode Title="Sensor class">
+    <HelpKINode Title="Sensor Class" Url="html/f26c2263-c280-a77e-04d0-23736b1d8093.htm" />
+    <HelpKINode Title="properties" Url="html/2520251f-f431-0912-bd26-104870ede6fb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Sensor.Active property" Url="html/4b5bf5fe-a5c8-f178-5284-757413f524f9.htm" />
+  <HelpKINode Title="Sensor.Id property" Url="html/75ab8fe3-a7bc-23f0-1aca-b934fec0ee99.htm" />
+  <HelpKINode Title="Sensor.Name property" Url="html/ead6178e-1935-e596-2ea1-4499247da907.htm" />
+  <HelpKINode Title="Sensor.Type property" Url="html/2ae67043-a5a3-089e-ab35-33d22f1d37a7.htm" />
+  <HelpKINode Title="SensorName property">
+    <HelpKINode Title="Message.SensorName Property " Url="html/206c4675-86c8-b2e9-e55c-351391e1b3ac.htm" />
+    <HelpKINode Title="TpsSensor.SensorName Property " Url="html/ffd3a503-02da-cb63-d4a2-cfbfe324cc84.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Sensors method" Url="html/b4ee2f3e-608d-9088-2607-ee60f7f299e3.htm" />
+  <HelpKINode Title="Sensors property" Url="html/44185992-2c84-bf4a-f47f-fad086f3baa9.htm" />
+  <HelpKINode Title="SensorsJson method" Url="html/ad876dd2-fe10-a791-6d6a-fd2807f73cb1.htm" />
+  <HelpKINode Title="SensorsResponseObject class">
+    <HelpKINode Title="SensorsResponseObject Class" Url="html/878bb68c-33da-8e03-1f26-272082742116.htm" />
+    <HelpKINode Title="properties" Url="html/a8018605-2766-d28a-56e1-bcbc6fce1a6e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SensorsResponseObject.Sensors property" Url="html/44185992-2c84-bf4a-f47f-fad086f3baa9.htm" />
+  <HelpKINode Title="Setups property" Url="html/9a8544be-1a5a-6f12-768a-e85a9e4300b0.htm" />
+  <HelpKINode Title="SlopeDistance property" Url="html/f59f7004-2b7b-2254-0305-ce3795c3352a.htm" />
+  <HelpKINode Title="Temperature property" Url="html/9c8fe2c1-4e01-6e8c-2743-53831a9218f8.htm" />
+  <HelpKINode Title="Text property" Url="html/580646b4-6ab7-33e4-1ee6-4fcc6dbae588.htm" />
+  <HelpKINode Title="timeRangeInvalid enumeration member" Url="html/32c3c7b2-ed1a-d563-e29d-9696c80457df.htm" />
+  <HelpKINode Title="ToJsonString method">
+    <HelpKINode Title="ApiRequest.ToJsonString Method " Url="html/dbcfbb22-1cfd-0f45-702a-b178c3697557.htm" />
+    <HelpKINode Title="BaseResponseObject.ToJsonString Method " Url="html/87dce2ab-4ef5-2b3d-fb44-6a4578a7487d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="ApiRequest.ToString Method " Url="html/794db2fc-b752-8f3b-f54e-ac5c4575e554.htm" />
+    <HelpKINode Title="BaseResponseObject.ToString Method " Url="html/e259d58e-bc67-8ded-5620-858c2f64ec0b.htm" />
+    <HelpKINode Title="GenericSensor.ToString Method " Url="html/f0318668-922f-4a3a-621b-af9f926f48e2.htm" />
+    <HelpKINode Title="Project.ToString Method " Url="html/1655dd28-e3a3-d357-476b-0c357672dac9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TpsMeasurement class">
+    <HelpKINode Title="TpsMeasurement Class" Url="html/9c5f6624-ac6e-12c6-900a-deae02e90e07.htm" />
+    <HelpKINode Title="constructor" Url="html/c0514e64-3f25-3218-84f7-80fd4ee4ab8d.htm" />
+    <HelpKINode Title="properties" Url="html/e61615e9-d6ec-72bd-fd67-db884fc14a77.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TpsMeasurement property" Url="html/99130889-5ec1-c113-2597-731bc81e1f80.htm" />
+  <HelpKINode Title="TpsMeasurement.AtmosPPM property" Url="html/f28bc73e-e105-81ba-e547-f525137c79d2.htm" />
+  <HelpKINode Title="TpsMeasurement.Epoch property" Url="html/6f6725d3-ae12-b6ef-ebe6-d334e4d8cf09.htm" />
+  <HelpKINode Title="TpsMeasurement.EpochLocal property" Url="html/866197ec-5129-577f-e330-688ccd1d596d.htm" />
+  <HelpKINode Title="TpsMeasurement.Face property" Url="html/a376486d-8ed0-d075-e119-2b2877ea95cb.htm" />
+  <HelpKINode Title="TpsMeasurement.Humidity property" Url="html/2076838c-a8f8-8db8-e94c-98810e464619.htm" />
+  <HelpKINode Title="TpsMeasurement.HzAngle property" Url="html/f192ebf6-e481-8ed4-f8b2-27078fe53f36.htm" />
+  <HelpKINode Title="TpsMeasurement.Id property" Url="html/c7c44eb1-3587-2931-6946-d128e743b8d7.htm" />
+  <HelpKINode Title="TpsMeasurement.MeasurementPointName property" Url="html/5f1a325a-c479-6dc1-497f-78acb7919a29.htm" />
+  <HelpKINode Title="TpsMeasurement.Orientation property" Url="html/f1ef8bb9-bd90-1def-eb89-d3e25f6e4ae5.htm" />
+  <HelpKINode Title="TpsMeasurement.PointId property" Url="html/ae60d113-136e-19f1-e34d-9fe6220fd9c9.htm" />
+  <HelpKINode Title="TpsMeasurement.Pressure property" Url="html/72b0de14-3c07-3f3e-df1d-4ef891610535.htm" />
+  <HelpKINode Title="TpsMeasurement.ReflectorConstant property" Url="html/9ca22c45-9c91-3b3a-18e0-44dc9566cba5.htm" />
+  <HelpKINode Title="TpsMeasurement.ReflectorHeight property" Url="html/7a9693b2-6e1b-0bb9-515a-d9bdfbe3f935.htm" />
+  <HelpKINode Title="TpsMeasurement.RefPPM property" Url="html/88582f42-bdec-f9c2-729e-023c090af7eb.htm" />
+  <HelpKINode Title="TpsMeasurement.SlopeDistance property" Url="html/f59f7004-2b7b-2254-0305-ce3795c3352a.htm" />
+  <HelpKINode Title="TpsMeasurement.Temperature property" Url="html/9c8fe2c1-4e01-6e8c-2743-53831a9218f8.htm" />
+  <HelpKINode Title="TpsMeasurement.TpsMeasurement constructor" Url="html/c0514e64-3f25-3218-84f7-80fd4ee4ab8d.htm" />
+  <HelpKINode Title="TpsMeasurement.TPSSensorName property" Url="html/c1207103-d178-9ebe-b504-cb0b4ee9fe5f.htm" />
+  <HelpKINode Title="TpsMeasurement.TPSSensorPointName property" Url="html/45b87c26-9f2d-42ac-5905-1b6a484ae594.htm" />
+  <HelpKINode Title="TpsMeasurement.TPSSetupName property" Url="html/3cb30487-26d8-309b-07e6-6337d3b9fae3.htm" />
+  <HelpKINode Title="TpsMeasurement.VAngle property" Url="html/cfb3e46e-df83-2611-d6e9-1e07cfa4ee39.htm" />
+  <HelpKINode Title="TpsMeasurement.WetTemperature property" Url="html/e62c9b77-e740-f799-90dd-f32ac331253e.htm" />
+  <HelpKINode Title="TpsMeasurements property" Url="html/200b55e7-0497-fddc-3fd4-75138984e149.htm" />
+  <HelpKINode Title="TpsMeasurementsByPoints method" Url="html/28293756-ef1c-8300-a43b-0ab362988988.htm" />
+  <HelpKINode Title="TpsMeasurementsByPointsJson method" Url="html/2255f173-6a75-8d36-102c-77d866a9d3b2.htm" />
+  <HelpKINode Title="TpsMeasurementsResponseObject class">
+    <HelpKINode Title="TpsMeasurementsResponseObject Class" Url="html/4b1a7472-c6b9-2e43-207a-5896ad82a5e9.htm" />
+    <HelpKINode Title="constructor" Url="html/6900ea33-8881-ea0c-ffd2-3e2331ef534f.htm" />
+    <HelpKINode Title="properties" Url="html/bffea103-3bfe-ab89-a1f9-8aaf1632362c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TpsMeasurementsResponseObject.TpsMeasurements property" Url="html/200b55e7-0497-fddc-3fd4-75138984e149.htm" />
+  <HelpKINode Title="TpsMeasurementsResponseObject.TpsMeasurementsResponseObject constructor" Url="html/6900ea33-8881-ea0c-ffd2-3e2331ef534f.htm" />
+  <HelpKINode Title="TpsResultsWithMeasurement method" Url="html/591f3dea-e6a0-e164-0bbb-856c4fd6b9a2.htm" />
+  <HelpKINode Title="TpsResultsWithMeasurement property" Url="html/369f4487-ac56-eef6-0df2-296598937c68.htm" />
+  <HelpKINode Title="TpsResultsWithMeasurementJson method" Url="html/23e4c178-9288-bcef-b720-162cb43e8ac8.htm" />
+  <HelpKINode Title="TpsResultsWithMeasurementResponseObject class">
+    <HelpKINode Title="TpsResultsWithMeasurementResponseObject Class" Url="html/29f9efbd-72a9-5524-4218-2022525dcf35.htm" />
+    <HelpKINode Title="constructor" Url="html/c5e28510-32e2-69ba-36c7-65d82d3a9e0b.htm" />
+    <HelpKINode Title="properties" Url="html/7554432f-c459-f493-dde2-55da9a9088f4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TpsResultsWithMeasurementResponseObject.TpsResultsWithMeasurement property" Url="html/369f4487-ac56-eef6-0df2-296598937c68.htm" />
+  <HelpKINode Title="TpsResultsWithMeasurementResponseObject.TpsResultsWithMeasurementResponseObject constructor" Url="html/c5e28510-32e2-69ba-36c7-65d82d3a9e0b.htm" />
+  <HelpKINode Title="TpsResultWithMeasurement class">
+    <HelpKINode Title="TpsResultWithMeasurement Class" Url="html/875c5949-9d34-e582-67c4-41c96e66feaf.htm" />
+    <HelpKINode Title="constructor" Url="html/41e506f0-667a-8477-9c41-318770c8f16b.htm" />
+    <HelpKINode Title="properties" Url="html/70d25460-c2b2-af21-6223-340d9634febf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TpsResultWithMeasurement.Result property" Url="html/b699b2b5-97fb-825d-b6a2-2313223a37c9.htm" />
+  <HelpKINode Title="TpsResultWithMeasurement.TpsMeasurement property" Url="html/99130889-5ec1-c113-2597-731bc81e1f80.htm" />
+  <HelpKINode Title="TpsResultWithMeasurement.TpsResultWithMeasurement constructor" Url="html/41e506f0-667a-8477-9c41-318770c8f16b.htm" />
+  <HelpKINode Title="TpsSensor class">
+    <HelpKINode Title="TpsSensor Class" Url="html/531e6b0b-2422-4d0b-aa47-2cca57579c7b.htm" />
+    <HelpKINode Title="constructor" Url="html/67026b02-6e32-1329-486b-ccbb43b61cd8.htm" />
+    <HelpKINode Title="properties" Url="html/3a6930d0-f61e-90ae-d6d0-589d836f3082.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TpsSensor.Active property" Url="html/87f02ec8-7d93-0092-a15f-19410e57cf8e.htm" />
+  <HelpKINode Title="TpsSensor.Epoch property" Url="html/6433813d-12af-3a5a-0f25-611967d5901d.htm" />
+  <HelpKINode Title="TpsSensor.EpochLocal property" Url="html/8ba87582-1d39-410a-f325-8580af9f1c49.htm" />
+  <HelpKINode Title="TpsSensor.Id property" Url="html/1f98c743-18d2-0e4f-68d3-9b1e5233d1f7.htm" />
+  <HelpKINode Title="TpsSensor.PointId property" Url="html/43861194-e484-b46d-9103-7f8ea00b1002.htm" />
+  <HelpKINode Title="TpsSensor.PointName property" Url="html/89e31441-c5ec-266f-b52f-0971c84a32a7.htm" />
+  <HelpKINode Title="TpsSensor.SensorName property" Url="html/ffd3a503-02da-cb63-d4a2-cfbfe324cc84.htm" />
+  <HelpKINode Title="TpsSensor.TpsSensor constructor" Url="html/67026b02-6e32-1329-486b-ccbb43b61cd8.htm" />
+  <HelpKINode Title="TPSSensorName property">
+    <HelpKINode Title="TpsMeasurement.TPSSensorName Property " Url="html/c1207103-d178-9ebe-b504-cb0b4ee9fe5f.htm" />
+    <HelpKINode Title="TpsSetup.TPSSensorName Property " Url="html/ae882fa2-55f4-b4a3-62fa-cd80f79a7c34.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TPSSensorPointName property" Url="html/45b87c26-9f2d-42ac-5905-1b6a484ae594.htm" />
+  <HelpKINode Title="TpsSensors method" Url="html/3ecd955e-d831-4e2b-7e0e-20ab213c772b.htm" />
+  <HelpKINode Title="TpsSensors property" Url="html/e633c9bc-7f61-f9e0-28d1-858d22e4525f.htm" />
+  <HelpKINode Title="TpsSensorsJson method" Url="html/5598010a-1a25-43e6-b2b1-cfb861896060.htm" />
+  <HelpKINode Title="TpsSensorsResponseObject class">
+    <HelpKINode Title="TpsSensorsResponseObject Class" Url="html/e6df830f-8956-d955-9e04-44733c306693.htm" />
+    <HelpKINode Title="constructor" Url="html/20af8d65-a54e-dd76-82e6-c078abd87ee5.htm" />
+    <HelpKINode Title="properties" Url="html/bb2561a7-5593-e8d8-505d-3e45f0717714.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TpsSensorsResponseObject.TpsSensors property" Url="html/e633c9bc-7f61-f9e0-28d1-858d22e4525f.htm" />
+  <HelpKINode Title="TpsSensorsResponseObject.TpsSensorsResponseObject constructor" Url="html/20af8d65-a54e-dd76-82e6-c078abd87ee5.htm" />
+  <HelpKINode Title="TpsSetup class">
+    <HelpKINode Title="TpsSetup Class" Url="html/8cee97de-48b8-5b0b-15f4-c434968f0547.htm" />
+    <HelpKINode Title="constructor" Url="html/9b4e69bd-8e6a-8f53-5772-6cdc21942263.htm" />
+    <HelpKINode Title="properties" Url="html/bd075d99-c7b2-3d41-7066-41d37c82bdc2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TpsSetup.AddInstConstant property" Url="html/80929dea-5d18-c07e-0ed1-67e4ac898774.htm" />
+  <HelpKINode Title="TpsSetup.Eastings property" Url="html/4a8471db-bf2b-b9a7-0be7-b488a92ccbab.htm" />
+  <HelpKINode Title="TpsSetup.Epoch property" Url="html/7d378744-1243-60db-a4c5-3a4a77e631d0.htm" />
+  <HelpKINode Title="TpsSetup.EpochLocal property" Url="html/7859bc9f-0137-9cb7-a37c-1be17ab78e5c.htm" />
+  <HelpKINode Title="TpsSetup.Height property" Url="html/4d3447ad-fa2a-25fb-9fe7-7bd800a982c1.htm" />
+  <HelpKINode Title="TpsSetup.Id property" Url="html/82b1f0ff-e2e6-746a-de39-058edff9fb2f.htm" />
+  <HelpKINode Title="TpsSetup.InstrumentHeight property" Url="html/cf7a770a-29d9-e88b-335a-0837a98d0570.htm" />
+  <HelpKINode Title="TpsSetup.LongitudeTilt property" Url="html/06f17ec0-f8ca-7a9b-bbc2-4b455486eb80.htm" />
+  <HelpKINode Title="TpsSetup.Northing property" Url="html/0b8661d1-8e83-3cab-1ba1-85bfd7a7f0e9.htm" />
+  <HelpKINode Title="TpsSetup.Orientation property" Url="html/eec8c2b6-8bce-593b-d315-f210c783fcf4.htm" />
+  <HelpKINode Title="TpsSetup.PointId property" Url="html/1ed301b2-2756-0684-25bc-533da908daa6.htm" />
+  <HelpKINode Title="TpsSetup.PPM property" Url="html/fb1bf8cd-468e-136d-8279-a7b007e767fc.htm" />
+  <HelpKINode Title="TpsSetup.TPSSensorName property" Url="html/ae882fa2-55f4-b4a3-62fa-cd80f79a7c34.htm" />
+  <HelpKINode Title="TpsSetup.TpsSetup constructor" Url="html/9b4e69bd-8e6a-8f53-5772-6cdc21942263.htm" />
+  <HelpKINode Title="TpsSetup.TPSSetupName property" Url="html/1244f115-2fb5-7a36-1487-24758cad90c8.htm" />
+  <HelpKINode Title="TpsSetup.TransverseTilt property" Url="html/fc98d9ec-a432-f7b4-e3c1-d92ea9f39681.htm" />
+  <HelpKINode Title="TpsSetup.Type property" Url="html/24f305d5-5a47-6a12-d981-223980cbfd4e.htm" />
+  <HelpKINode Title="TPSSetupName property">
+    <HelpKINode Title="TpsMeasurement.TPSSetupName Property " Url="html/3cb30487-26d8-309b-07e6-6337d3b9fae3.htm" />
+    <HelpKINode Title="TpsSetup.TPSSetupName Property " Url="html/1244f115-2fb5-7a36-1487-24758cad90c8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TpsSetups method" Url="html/516d658f-627c-76ce-545a-35dfeb89eca8.htm" />
+  <HelpKINode Title="TpsSetups property" Url="html/5435a9ff-ee87-f311-b975-8bf35e090ea1.htm" />
+  <HelpKINode Title="TpsSetupsJson method" Url="html/d3aaba7d-3892-40e4-6243-dc2b03f955db.htm" />
+  <HelpKINode Title="TpsSetupsResponseObject class">
+    <HelpKINode Title="TpsSetupsResponseObject Class" Url="html/0631a859-4cd3-465a-3b1e-14e45ec2a772.htm" />
+    <HelpKINode Title="constructor" Url="html/fcd7937a-6ce0-fa6c-7d05-7f1a1ec5e9f4.htm" />
+    <HelpKINode Title="properties" Url="html/d3ba7ceb-3aaf-5055-d9c1-b1bde52fba75.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TpsSetupsResponseObject.TpsSetups property" Url="html/5435a9ff-ee87-f311-b975-8bf35e090ea1.htm" />
+  <HelpKINode Title="TpsSetupsResponseObject.TpsSetupsResponseObject constructor" Url="html/fcd7937a-6ce0-fa6c-7d05-7f1a1ec5e9f4.htm" />
+  <HelpKINode Title="TransverseDisplacement property" Url="html/fa4ef15b-b8ca-dfaf-6db9-4df11e7836b0.htm" />
+  <HelpKINode Title="TransverseTilt property" Url="html/fc98d9ec-a432-f7b4-e3c1-d92ea9f39681.htm" />
+  <HelpKINode Title="Type property">
+    <HelpKINode Title="GenericSensor.Type Property " Url="html/72cc10a5-925c-1669-8cab-440d5de720d1.htm" />
+    <HelpKINode Title="Message.Type Property " Url="html/7e19ba35-eee1-02b7-d425-c08160fb1bf6.htm" />
+    <HelpKINode Title="Picture.Type Property " Url="html/3b5c0a06-bb23-fd8f-048f-b12bdd30294d.htm" />
+    <HelpKINode Title="Result.Type Property " Url="html/3e868d32-8186-f438-dae4-4fed448d5eae.htm" />
+    <HelpKINode Title="Sensor.Type Property " Url="html/2ae67043-a5a3-089e-ab35-33d22f1d37a7.htm" />
+    <HelpKINode Title="TpsSetup.Type Property " Url="html/24f305d5-5a47-6a12-d981-223980cbfd4e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Value property" Url="html/7f3f2de5-2640-b3a7-5715-2518d508e33e.htm" />
+  <HelpKINode Title="VAngle property" Url="html/cfb3e46e-df83-2611-d6e9-1e07cfa4ee39.htm" />
+  <HelpKINode Title="Version field" Url="html/c0c539dc-cdfa-5b41-c4cc-7bfd9ac5a69f.htm" />
+  <HelpKINode Title="WetTemperature property" Url="html/e62c9b77-e740-f799-90dd-f32ac331253e.htm" />
+</HelpKI>

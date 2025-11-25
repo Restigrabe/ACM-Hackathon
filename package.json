@@ -1,0 +1,23 @@
+{
+  "name": "geoinfo-minihackathon",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node dist/server.js",
+    "dev": "node build.js && node dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "GeoMOS monitoring points visualization with OpenLayers",
+  "dependencies": {
+    "ol": "^10.6.1",
+    "proj4": "^2.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/proj4": "^2.5.5",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.9.3"
+  }
+}
