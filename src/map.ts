@@ -1,5 +1,5 @@
 import "ol/ol.css";
-import Feature from "ol/Feature";
+import Feature, { FeatureLike } from "ol/Feature";
 import Point from "ol/geom/Point";
 import TileLayer from "ol/layer/Tile";
 import VectorLayer from "ol/layer/Vector";
